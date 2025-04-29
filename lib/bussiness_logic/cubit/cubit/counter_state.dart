@@ -12,5 +12,5 @@ final class CounterInitial extends CounterState {
 }
 
 final class CounterUpdate extends CounterState {
-  const CounterUpdate(int newCounter) : super(5);
+  const CounterUpdate(int newCounter) : super(newCounter);
 }
